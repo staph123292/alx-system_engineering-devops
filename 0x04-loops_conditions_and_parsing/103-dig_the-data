@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# "Best School" is displayed  10 times
+awk -F' ' '{ print $1, $9 }' apache-access.log | sort | uniq -c | sort -rn
+
