@@ -14,8 +14,8 @@ frontend  mkwebdesign-frontend
         default_backend mkwebdesign-backend
 backend mkwebdesign-backend
         balance roundrobin
-        server 320353-web-01 100.25.179.31:80 check
-        server 320353-web-02 54.237.87.213:80 check
+        server 378042--web-01 100.25.190.57:80 check
+        server 378042--web-02 54.210.108.155:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
