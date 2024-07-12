@@ -47,5 +47,5 @@ frontend khalid-frontend-https
 
 backend khalid-backend
         balance roundrobin
-        server 63210-web-01 100.25.19.204:80 check
-        server 63210-web-02 54.157.159.85:80 check
+        server 378042-web-01 100.25.190.57:80 check
+        server 378042-web-02 54.210.108.155:80 check
